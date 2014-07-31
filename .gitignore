@@ -1,0 +1,9 @@
+
+# Directoriess and IDE stuff
+/.vagrant
+/.idea
+
+# Silly OS type files
+.DS_Store
+Thumbs.db
+.DS_Stores
