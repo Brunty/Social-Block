@@ -2,7 +2,7 @@
 
 The purpose of this small repo is to give a re-useable set of social icons based on [Font Awesome](http://fortawesome.github.io/Font-Awesome/) including variations on size, style and whether or not they're coloured etc.
 
-## Sizes:
+## Sizes
 
 * .social-block
 * .social-block.small
@@ -11,14 +11,14 @@ The purpose of this small repo is to give a re-useable set of social icons based
 
 The 'default' size (could be called 'medium') doesn't need a size class declared on it as well.
 
-## Styles:
+## Styles
 
 * .radius
 * .circles
 
 The 'default' style is square
 
-# Positioning
+## Positioning
 
 * .horizontal
 * .vertical
@@ -29,7 +29,7 @@ You can also remove spacing between the buttons by adding the following class:
 
 * .no-space
 
-# Colouring
+## Colouring
 
 Colouring is added via the following class:
 
