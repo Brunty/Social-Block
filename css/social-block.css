@@ -23,14 +23,14 @@
 .social-block a i:before { display: inline-block; }
 
 /* size styles for the block */
-.social-block.small a { width: 2rem; height: 2rem; font-size: 2rem; }
-.social-block.large a { width: 4.2rem; height: 4.2rem; font-size: 4.2rem; }
-.social-block.x-large a { width: 5.5rem; height: 5.5rem; font-size: 5.5rem; }
+.social-block.small a, .social-block.small a i { width: 2rem; height: 2rem; font-size: 2rem; }
+.social-block.large a, .social-block.large a i { width: 4.2rem; height: 4.2rem; font-size: 4.2rem; }
+.social-block.x-large a, .social-block.x-large a i { width: 5.5rem; height: 5.5rem; font-size: 5.5rem; }
 
 /* positioning for individual social icons */
 .social-block a i.fa-facebook:before { margin-left: 30%; margin-top: 5%; }
-.social-block a i.fa-twitter { vertical-align: middle; font-size: 2.4rem; }
-.social-block a i.fa-twitter:before { margin-left: 3%; margin-top: 12%; }
+.social-block a i.fa-twitter { vertical-align: middle; font-size: 0.7em; }
+.social-block a i.fa-twitter:before { margin-left: 3%; margin-top: 20%; }
 .social-block a i.fa-google-plus:before { font-size: 1.2em; margin-left: -6%; }
 .social-block a i.fa-linkedin { vertical-align: top; line-height: 0.9;}
 .social-block a i.fa-linkedin:before { font-size: 0.8em; }
