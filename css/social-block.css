@@ -13,7 +13,7 @@
     If you want to change the size of them, adjust the width, height and font-size.
     Positioning of the icons within their spaces is with percentages so they should scale nicely.
 */
-.social-block a { transition: 0.2s ease-in-out; width: 3rem; height: 3rem; font-size: 3rem; text-decoration: none; margin: 0.3rem; }
+.social-block a { transition: 0.2s ease-in-out; width: 3rem; height: 3rem; font-size: 3rem; text-decoration: none; margin: 0.3rem; overflow: hidden;  }
 .social-block.no-space a { margin: 0; }
 .social-block.no-bg a { background: transparent; color: #000; }
 
@@ -54,15 +54,18 @@
 
 
 /* Radius Icons */
-.social-block.radius a { border-radius: 0.3rem; -webkit-border-radius: 0.3rem; -moz-border-radius: 0.3rem; }
+.social-block.radius a,
+.social-block.radius a i { border-radius: 0.3rem; -webkit-border-radius: 0.3rem; -moz-border-radius: 0.3rem; }
 
 /* Circle Icons */
-.social-block.circles a { border-radius: 2rem; -webkit-border-radius: 2rem; -moz-border-radius: 2rem; }
+.social-block.circles a,
+.social-block.circles a i { border-radius: 2rem; -webkit-border-radius: 2rem; -moz-border-radius: 2rem; }
 
 /* hexagon icons */
-
 .social-block.hexagons { margin: 1.5rem 0; }
-.social-block.hexagons a, .social-block.hexagons a i { width: 3rem; height: 1.5rem; font-size: 1.5rem; }
+.social-block.hexagons a { overflow: visible; }
+.social-block.hexagons a,
+.social-block.hexagons a i { width: 3rem; height: 1.5rem; font-size: 1.5rem; }
 
 .social-block.hexagons a i.fa-facebook:before { margin-left: 2%; }
 .social-block.hexagons a i.fa-google-plus:before { font-size: 1em; line-height: 1; margin-top: 5%; margin-left: 5%; }
@@ -71,7 +74,8 @@
 .social-block.hexagons a i.fa-envelope { font-size: 1.3em; line-height: 0.5; }
 
 .social-block.hexagons a { background: #000; position: relative; }
-.social-block.hexagons a:before, .social-block.hexagons a:after { transition: 0.2s ease-in-out; border-left: 1.5rem solid transparent; border-right: 1.5rem solid transparent; content: ' '; display: block; width: 0; position: absolute; }
+.social-block.hexagons a:before,
+.social-block.hexagons a:after { transition: 0.2s ease-in-out; border-left: 1.5rem solid transparent; border-right: 1.5rem solid transparent; content: ' '; display: block; width: 0; position: absolute; }
 .social-block.hexagons a:before { border-bottom: 1rem solid #000; top: -1rem; }
 .social-block.hexagons a:after { border-top: 1rem solid #000; bottom: -1rem; }
 
