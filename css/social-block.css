@@ -1,91 +1,303 @@
 /* General Styles for the block */
-.social-block { font-size: 0; display: block; margin-bottom: 1rem; }
-.social-block.no-space {  }
+.social-block {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 0;
+}
+
+.social-block.no-space {
+}
 
 /* Horizontal Block Styles */
-.social-block.horizontal a { display: inline-block; }
+.social-block.horizontal a {
+    display: inline-block;
+}
 
 /* Vertical Block Styles */
-.social-block.vertical a { display: block; }
+.social-block.vertical a {
+    display: block;
+}
 
 /* General Styles for the icons */
 /*
     If you want to change the size of them, adjust the width, height and font-size.
     Positioning of the icons within their spaces is with percentages so they should scale nicely.
 */
-.social-block a { transition: 0.2s ease-in-out; width: 3rem; height: 3rem; font-size: 3rem; text-decoration: none; margin: 0.3rem; overflow: hidden;  }
-.social-block.no-space a { margin: 0; }
-.social-block.no-bg a { background: transparent; color: #000; }
+.social-block a {
+    overflow: hidden;
+    margin: 0.3rem;
+    width: 3rem;
+    height: 3rem;
+    text-decoration: none;
+    font-size: 3rem;
+    transition: background 0.2s ease-in-out;
+}
 
-.social-block a i { transition: 0.2s ease-in-out; width: 3rem; height: 3rem; background-color: #000; color: #fff; overflow: hidden; text-decoration: none; display: block; text-align: center; vertical-align: middle; }
-.social-block a:hover i { background-color: #5e5e5e; }
+.social-block.no-space a {
+    margin: 0;
+}
 
-.social-block a i:before { display: inline-block; }
+.social-block.no-bg a {
+    background: transparent;
+    color: #000;
+}
+
+.social-block a i {
+    display: block;
+    overflow: hidden;
+    width: 3rem;
+    height: 3rem;
+    background-color: #000;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.social-block a:hover i {
+    background-color: #5e5e5e;
+}
+
+.social-block a i:before {
+    display: inline-block;
+}
 
 /* size styles for the block */
-.social-block.small a, .social-block.small a i { width: 2rem; height: 2rem; font-size: 2rem; }
-.social-block.large a, .social-block.large a i { width: 4.2rem; height: 4.2rem; font-size: 4.2rem; }
-.social-block.x-large a, .social-block.x-large a i { width: 5.5rem; height: 5.5rem; font-size: 5.5rem; }
+.social-block.small a, .social-block.small a i {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+}
+
+.social-block.large a, .social-block.large a i {
+    width: 4.2rem;
+    height: 4.2rem;
+    font-size: 4.2rem;
+}
+
+.social-block.x-large a, .social-block.x-large a i {
+    width: 5.5rem;
+    height: 5.5rem;
+    font-size: 5.5rem;
+}
 
 /* positioning for individual social icons */
-.social-block a i.fa-facebook:before { margin-left: 30%; margin-top: 5%; }
-.social-block a i.fa-twitter { vertical-align: middle; font-size: 0.7em; }
-.social-block a i.fa-twitter:before { margin-left: 3%; margin-top: 20%; }
-.social-block a i.fa-google-plus:before { font-size: 1.2em; margin-left: -6%; }
-.social-block a i.fa-linkedin { vertical-align: top; line-height: 0.9;}
-.social-block a i.fa-linkedin:before { font-size: 0.8em; }
-.social-block a i.fa-instagram { vertical-align: top; line-height: 0.9; }
-.social-block a i.fa-instagram:before { font-size: 0.8em; }
-.social-block a i.fa-pinterest { vertical-align: top; line-height: 0.83; }
-.social-block a i.fa-pinterest:before { font-size: 0.7em; }
-.social-block a i.fa-envelope { vertical-align: top; line-height: 0.73; }
-.social-block a i.fa-envelope:before { font-size: 0.65em; }
+.social-block a i.fa-facebook:before {
+    margin-top: 5%;
+    margin-left: 30%;
+}
 
+.social-block a i.fa-twitter {
+    vertical-align: middle;
+    font-size: 0.7em;
+}
 
+.social-block a i.fa-twitter:before {
+    margin-top: 20%;
+    margin-left: 3%;
+}
+
+.social-block a i.fa-google-plus:before {
+    margin-left: -6%;
+    font-size: 1.2em;
+}
+
+.social-block a i.fa-linkedin {
+    vertical-align: top;
+    line-height: 0.9;
+}
+
+.social-block a i.fa-linkedin:before {
+    font-size: 0.8em;
+}
+
+.social-block a i.fa-instagram {
+    vertical-align: top;
+    line-height: 0.9;
+}
+
+.social-block a i.fa-instagram:before {
+    font-size: 0.8em;
+}
+
+.social-block a i.fa-pinterest {
+    vertical-align: top;
+    line-height: 0.83;
+}
+
+.social-block a i.fa-pinterest:before {
+    font-size: 0.7em;
+}
+
+.social-block a i.fa-envelope {
+    vertical-align: top;
+    line-height: 0.73;
+}
+
+.social-block a i.fa-envelope:before {
+    font-size: 0.65em;
+}
 
 /* coloured icons */
-.social-block.coloured a i.fa-facebook { background-color: #3b5998; }
-.social-block.coloured a i.fa-twitter { background-color: #55acee; }
-.social-block.coloured a i.fa-google-plus { background-color: #dd4b39; }
-.social-block.coloured a i.fa-linkedin { background-color: #3b5998; }
-.social-block.coloured a i.fa-instagram { background-color: #0976b4; }
-.social-block.coloured a i.fa-pinterest { background-color: #cc2127; }
-.social-block.coloured a i.fa-envelope { background-color: #9c9e9f; }
+.social-block.coloured a i.fa-facebook {
+    background-color: #3b5998;
+}
 
+.social-block.coloured a i.fa-twitter {
+    background-color: #55acee;
+}
+
+.social-block.coloured a i.fa-google-plus {
+    background-color: #dd4b39;
+}
+
+.social-block.coloured a i.fa-linkedin {
+    background-color: #3b5998;
+}
+
+.social-block.coloured a i.fa-instagram {
+    background-color: #0976b4;
+}
+
+.social-block.coloured a i.fa-pinterest {
+    background-color: #cc2127;
+}
+
+.social-block.coloured a i.fa-envelope {
+    background-color: #9c9e9f;
+}
 
 /* Radius Icons */
 .social-block.radius a,
-.social-block.radius a i { border-radius: 0.3rem; -webkit-border-radius: 0.3rem; -moz-border-radius: 0.3rem; }
+.social-block.radius a i {
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+}
 
 /* Circle Icons */
 .social-block.circles a,
-.social-block.circles a i { border-radius: 2rem; -webkit-border-radius: 2rem; -moz-border-radius: 2rem; }
+.social-block.circles a i {
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+}
 
-/* hexagon icons */
-.social-block.hexagons { margin: 1.5rem 0; }
-.social-block.hexagons a { overflow: visible;  }
+/* Free floating */
+/* basically, these are just the 'standard' icons */
+.social-block.free-float a,
+.social-block.free-float a i {
+    background: transparent;
+    color: #fff;
+}
+
+.social-block.free-float a i:before {
+    color: #000;
+    font-size: 0.8em;
+}
+
+.social-block.free-float a i.fa-facebook:before {
+    margin-left: 0;
+}
+
+.social-block.free-float a i.fa-twitter {
+    font-size: 0.9em;
+}
+
+/* Hexagonal icons */
+.social-block.hexagons {
+    margin: 1.5rem 0;
+}
+
+.social-block.hexagons a {
+    overflow: visible;
+}
+
 .social-block.hexagons a,
-.social-block.hexagons a i { width: 3rem; height: 1.5rem; font-size: 1.5rem; }
+.social-block.hexagons a i {
+    width: 3rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+}
 
-.social-block.hexagons a i.fa-facebook:before { margin-left: 2%; }
-.social-block.hexagons a i.fa-google-plus:before { font-size: 1em; line-height: 1; margin-top: 5%; margin-left: 5%; }
-.social-block.hexagons a i.fa-twitter { font-size: 1em; line-height: 0.3; }
-.social-block.hexagons a i.fa-pinterest { font-size: 1.3em; line-height: 0.6; }
-.social-block.hexagons a i.fa-envelope { font-size: 1.3em; line-height: 0.5; }
+.social-block.hexagons a i.fa-facebook:before {
+    margin-left: 2%;
+}
 
-.social-block.hexagons a { background: #000; position: relative; }
+.social-block.hexagons a i.fa-google-plus:before {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1em;
+    line-height: 1;
+}
+
+.social-block.hexagons a i.fa-twitter {
+    font-size: 1em;
+    line-height: 0.3;
+}
+
+.social-block.hexagons a i.fa-pinterest {
+    font-size: 1.3em;
+    line-height: 0.6;
+}
+
+.social-block.hexagons a i.fa-envelope {
+    font-size: 1.3em;
+    line-height: 0.5;
+}
+
+.social-block.hexagons a {
+    position: relative;
+    background: #000;
+}
+
 .social-block.hexagons a:before,
-.social-block.hexagons a:after { transition: 0.2s ease-in-out; border-left: 1.5rem solid transparent; border-right: 1.5rem solid transparent; content: ' '; display: block; width: 0; position: absolute; }
-.social-block.hexagons a:before { border-bottom: 1rem solid #000; top: -1rem; }
-.social-block.hexagons a:after { border-top: 1rem solid #000; bottom: -1rem; }
+.social-block.hexagons a:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    border-right: 1.5rem solid transparent;
+    border-left: 1.5rem solid transparent;
+    content: ' ';
+    transition: 0.2s ease-in-out;
+}
 
-.social-block.hexagons a:hover:before { border-bottom: 1rem solid #5e5e5e; top: -1rem; }
-.social-block.hexagons a:hover:after { border-top: 1rem solid #5e5e5e; bottom: -1rem; }
+.social-block.hexagons a:before {
+    top: -1rem;
+    border-bottom: 1rem solid #000;
+}
 
-.social-block.hexagons.tiled { margin: 1.5rem 0 5rem 0; }
+.social-block.hexagons a:after {
+    bottom: -1rem;
+    border-top: 1rem solid #000;
+}
 
-.social-block.hexagons.tiled a { margin: 0.1rem; float: left; }
-.social-block.hexagons.tiled a:nth-child(even) { margin-left: -1.5rem; margin-top: 2.8rem; margin-right: -1.4rem; }
+.social-block.hexagons a:hover:before {
+    top: -1rem;
+    border-bottom: 1rem solid #5e5e5e;
+}
+
+.social-block.hexagons a:hover:after {
+    bottom: -1rem;
+    border-top: 1rem solid #5e5e5e;
+}
+
+/* Tiled hexagonal icons */
+.social-block.hexagons.tiled {
+    margin: 1.5rem 0 5rem 0;
+}
+
+.social-block.hexagons.tiled a {
+    float: left;
+    margin: 0.1rem;
+}
+
+.social-block.hexagons.tiled a:nth-child(even) {
+    margin-top: 2.8rem;
+    margin-right: -1.4rem;
+    margin-left: -1.5rem;
+}
 
 /*
     Of course, you can write your own styles to override the ones above.
