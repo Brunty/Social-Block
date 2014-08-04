@@ -324,42 +324,36 @@
     margin-left: -1.4rem;
 }
 
-
 /* 1 4 7 10 */
 .social-block.hexagons.tiled-3 a:nth-child(3n+1) {
     margin: 0.1rem;
 }
 
 
-/* left first tiled hexagons */
-.social-block.hexagons.tiled-3.middle-first { padding-left: 1.5rem; }
 
+/* left first tiled hexagons */
+.social-block.hexagons.tiled-3.middle-first {
+    padding-left: 1.5rem;
+}
 
 /* middle row positioning */
-.social-block.hexagons.tiled-3.middle-first a:nth-child(n+1) { /* 2 5 8 11 */
+.social-block.hexagons.tiled-3.middle-first a:nth-child(n+1) {
     margin: 0.1rem;
 }
 
 /* top row positioning */
-.social-block.hexagons.tiled-3.middle-first a:nth-child(3n+1) { /* 1 4 7 10 */
+.social-block.hexagons.tiled-3.middle-first a:nth-child(3n+1) {
     margin-top: 2.9rem;
     margin-right: -1.4rem;
     margin-left: -1.4rem;
 }
 
 /* bottom positioning */
-.social-block.hexagons.tiled-3.middle-first a:nth-child(3n+3) { /* 3 6 9 12 */
+.social-block.hexagons.tiled-3.middle-first a:nth-child(3n+3) {
     margin-top: 5.8rem;
     margin-right: -2.8rem;
     margin-left: -3.1rem;
 }
-
-
-
-
-
-
-
 
 /*
     Of course, you can write your own styles to override the ones above.
