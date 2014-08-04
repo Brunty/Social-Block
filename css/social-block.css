@@ -212,6 +212,26 @@
     background-color: #9c9e9f;
 }
 
+/* descending grey */
+
+
+.social-block.grey-desc a i {
+    background-color: #383737;
+}
+.social-block.grey-desc a:nth-child(n+2) i {
+    background-color: #474747;
+}
+.social-block.grey-desc a:nth-child(n+3) i {
+    background-color: #666666;
+}
+.social-block.grey-desc a:nth-child(n+4) i {
+    background-color: #868686;
+}
+.social-block.grey-desc a:nth-child(n+5) i {
+    background-color: #c2c2c2;
+}
+
+
 /* Radius Icons */
 .social-block.radius a,
 .social-block.radius a i {
