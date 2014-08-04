@@ -181,6 +181,37 @@
     background-color: #9c9e9f;
 }
 
+
+/* coloured on hover */
+.social-block.hover-coloured a { overflow: visible; }
+.social-block.hover-coloured a i.fa-facebook:hover {
+   background-color: #3b5998;
+}
+
+.social-block.hover-coloured a i.fa-twitter:hover {
+    background-color: #55acee;
+}
+
+.social-block.hover-coloured a i.fa-google-plus:hover {
+    background-color: #dd4b39;
+}
+
+.social-block.hover-coloured a i.fa-linkedin:hover {
+    background-color: #3b5998;
+}
+
+.social-block.hover-coloured a i.fa-instagram:hover {
+    background-color: #0976b4;
+}
+
+.social-block.hover-coloured a i.fa-pinterest:hover {
+    background-color: #cc2127;
+}
+
+.social-block.hover-coloured a i.fa-envelope:hover {
+    background-color: #9c9e9f;
+}
+
 /* Radius Icons */
 .social-block.radius a,
 .social-block.radius a i {

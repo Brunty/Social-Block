@@ -34,6 +34,9 @@ You can also remove spacing between the buttons by adding the following class:
 Colouring is added via the following class:
 
 * .coloured
+* .hover-coloured
+
+The hover-coloured class will make them coloured to their respective brand colours when you hover over them.
 
 It's the British spelling. Deal with it.
 
