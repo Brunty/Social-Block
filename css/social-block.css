@@ -1,6 +1,7 @@
 /* General Styles for the block */
 .social-block {
     display: block;
+    overflow: hidden;
     margin-bottom: 1rem;
     font-size: 0;
 }
@@ -10,7 +11,8 @@
 
 /* Horizontal Block Styles */
 .social-block.horizontal a {
-    display: inline-block;
+    display: block;
+    float: left;
 }
 
 /* Vertical Block Styles */
@@ -181,11 +183,13 @@
     background-color: #9c9e9f;
 }
 
-
 /* coloured on hover */
-.social-block.hover-coloured a { overflow: visible; }
+.social-block.hover-coloured a {
+    overflow: visible;
+}
+
 .social-block.hover-coloured a i.fa-facebook:hover {
-   background-color: #3b5998;
+    background-color: #3b5998;
 }
 
 .social-block.hover-coloured a i.fa-twitter:hover {
@@ -214,23 +218,25 @@
 
 /* descending grey */
 
-
 .social-block.grey-desc a i {
     background-color: #383737;
 }
+
 .social-block.grey-desc a:nth-child(n+2) i {
     background-color: #474747;
 }
+
 .social-block.grey-desc a:nth-child(n+3) i {
-    background-color: #666666;
+    background-color: #666;
 }
+
 .social-block.grey-desc a:nth-child(n+4) i {
     background-color: #868686;
 }
+
 .social-block.grey-desc a:nth-child(n+5) i {
     background-color: #c2c2c2;
 }
-
 
 /* Radius Icons */
 .social-block.radius a,
